@@ -1,4 +1,4 @@
-#1. Content Pack Introduction
+# 1. Content Pack Introduction
 
 Log Insight is the VMware log management system. After the Huawei Log Insight content pack is installed,you can monitor and manage the sysLog logs reported by Huawei rack, blade, and eSight servers, collect log statistics, analyze logs,view event change trends, and pre-customize alarm sending.You can quickly locate server problems and analyze potential server problems.
 
@@ -14,8 +14,8 @@ Log Insight is the VMware log management system. After the Huawei Log Insight co
 -   Huawei rack server:         RH2288H V2, RH1288 V3, RH2288 V3, RH2288H V3, RH5885 V3, RH8100 V3, 1288H V5, 2288H V5, and 2488 V5
 -   Huawei high-density server: XH321 V3, XH620 V3, XH622 V3, and XH628 V3
 
-#2. Content Pack Functions
-##iBMC content pack:
+# 2. Content Pack Functions
+## iBMC content pack:
 - **Dashboards:** The Overview, Security, System, and Operation pages are included. The view functions are as follows:
 	- Change trends of different events
 	- Statistics on and analysis of events of each server
@@ -26,7 +26,7 @@ Log Insight is the VMware log management system. After the Huawei Log Insight co
 - **sysLog log parsing:** parsing of fields and meanings of sysLog events
 - **Alarms:** Multiple Login Failure Alert and alarms triggered by major faults on boards
 
-##HMM content pack:
+## HMM content pack:
 - **Dashboards:** The Overview, System, and Operation pages are included. The view functions are as follows:
 	- Change trends of different events
 	- Statistics on and analysis of events of each server
@@ -37,7 +37,7 @@ Log Insight is the VMware log management system. After the Huawei Log Insight co
 - **sysLog log parsing:** parsing of fields and meanings of sysLog events
 - **Alarms:** Multiple Login Failure Alert and alarms triggered by major faults on boards
 
-##eSight content pack:
+## eSight content pack:
 - **Dashboards:** The Overview, Security, System, and Operation pages are included. The view functions are as follows:
 	- Change trends of different events
 	- Statistics on and analysis of events of each eSight
@@ -48,8 +48,8 @@ Log Insight is the VMware log management system. After the Huawei Log Insight co
 - **sysLog log parsing:** parsing of fields and meanings of sysLog events
 - **Alarms:** Multiple Login Failure Alert, Multiple SNMP Polling Failure, and Multiple Health Status Polling Failure Alert
 
-#3. Server Configuration
-##iBMC Configuration
+# 3. Server Configuration
+## iBMC Configuration
 1.	Log in to the BMC WebUI as an administrator and choose **Alarm&SEL > Alarm Settings**.
 
 2.	Set the following parameters in the **Syslog Notification Settings** area:
@@ -60,7 +60,7 @@ Log Insight is the VMware log management system. After the Huawei Log Insight co
 •	**Syslog Port:** Set this parameter to 514.
 •	Set other parameters as required.
 
-##HMM Configuration
+## HMM Configuration
 1.	Log in to the BMC WebUI as an administrator and choose **System Management > Remote Syslog**.</b>
 
 2.	Set the following parameters in the **Operation Logs** area:
@@ -75,7 +75,7 @@ Log Insight is the VMware log management system. After the Huawei Log Insight co
 •	**Transmission Protocol**: Set this parameter to TCP or UDP.
 •	Set other parameters as required.
 
-##eSight Configuration
+## eSight Configuration
 1.	Log in to the eSight WebUI as an administrator and Click **?** in the upper right corner to open the eSight help document, choose **System Parameter Settings > Setting eSight Log Forwarding > Enabling Log Forwarding**, and enable the log forwarding function by referring to this section.
 
 2.	Log in to the eSight WebUI as an administrator again and choose **System > System Interconnection > Transfer Settings > Log Transfer Settings**.
