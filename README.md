@@ -16,7 +16,8 @@ Log Insight is the VMware log management system. After the Huawei Log Insight co
 
 # 2. Content Pack Functions
 ## iBMC content pack:
-- **Dashboards:** The Overview, Security, System, and Operation pages are included. The view functions are as follows:
+- **Dashboards:** 
+The Overview, Security, System, and Operation pages are included. The view functions are as follows:
 	- Change trends of different events
 	- Statistics on and analysis of events of each server
 	- Statistics on login failures, system error events, and operation error events
@@ -27,7 +28,8 @@ Log Insight is the VMware log management system. After the Huawei Log Insight co
 - **Alarms:** Multiple Login Failure Alert and alarms triggered by major faults on boards
 
 ## HMM content pack:
-- **Dashboards:** The Overview, System, and Operation pages are included. The view functions are as follows:
+- **Dashboards:** 
+The Overview, System, and Operation pages are included. The view functions are as follows:
 	- Change trends of different events
 	- Statistics on and analysis of events of each server
 	- Statistics on login failures, system error events, and operation error events
@@ -38,7 +40,8 @@ Log Insight is the VMware log management system. After the Huawei Log Insight co
 - **Alarms:** Multiple Login Failure Alert and alarms triggered by major faults on boards
 
 ## eSight content pack:
-- **Dashboards:** The Overview, Security, System, and Operation pages are included. The view functions are as follows:
+- **Dashboards:** 
+The Overview, Security, System, and Operation pages are included. The view functions are as follows:
 	- Change trends of different events
 	- Statistics on and analysis of events of each eSight
 	- Statistics on login failures, system error events, and operation error events
@@ -53,27 +56,27 @@ Log Insight is the VMware log management system. After the Huawei Log Insight co
 1.	Log in to the BMC WebUI as an administrator and choose **Alarm&SEL > Alarm Settings**.
 
 2.	Set the following parameters in the **Syslog Notification Settings** area:
-•	**Syslog Notifications:** Set this parameter to ON.
-•	**Transmission Protocol:** Set this parameter to TCP or UDP.
-•	**Current Status:** Set this parameter to Enable.
-•	**Server Address:** Set this parameter to the IP address of the Log Insight server.
-•	**Syslog Port:** Set this parameter to 514.
-•	Set other parameters as required.
+	-	**Syslog Notifications:** Set this parameter to ON.
+	-	**Transmission Protocol:** Set this parameter to TCP or UDP.
+	-	**Current Status:** Set this parameter to Enable.
+	-	**Server Address:** Set this parameter to the IP address of the Log Insight server.
+	-	**Syslog Port:** Set this parameter to 514.
+	-	Set other parameters as required.
 
 ## HMM Configuration
 1.	Log in to the BMC WebUI as an administrator and choose **System Management > Remote Syslog**.</b>
 
 2.	Set the following parameters in the **Operation Logs** area:
-• **Syslog Status:** Set this parameter to ON.
-•	**Server Address:** Set this parameter to the IP address of the Log Insight server.
-•	**Transmission Protocol:** Set this parameter to TCP or UDP.
-•	Set other parameters as required.
+	- **Syslog Status:** Set this parameter to ON.
+	-	**Server Address:** Set this parameter to the IP address of the Log Insight server.
+	-	**Transmission Protocol:** Set this parameter to TCP or UDP.
+	-	Set other parameters as required.
 
 3.	Set the following parameters in the **System Logs** area:
-•	**Syslog Status**: Set this parameter to ON.
-•	**Server Address**: Set this parameter to the IP address of the Log Insight server.
-•	**Transmission Protocol**: Set this parameter to TCP or UDP.
-•	Set other parameters as required.
+	-	**Syslog Status**: Set this parameter to ON.
+	-	**Server Address**: Set this parameter to the IP address of the Log Insight server.
+	-	**Transmission Protocol**: Set this parameter to TCP or UDP.
+	-	Set other parameters as required.
 
 ## eSight Configuration
 1.	Log in to the eSight WebUI as an administrator and Click **?** in the upper right corner to open the eSight help document, choose **System Parameter Settings > Setting eSight Log Forwarding > Enabling Log Forwarding**, and enable the log forwarding function by referring to this section.
@@ -81,8 +84,8 @@ Log Insight is the VMware log management system. After the Huawei Log Insight co
 2.	Log in to the eSight WebUI as an administrator again and choose **System > System Interconnection > Transfer Settings > Log Transfer Settings**.
 
 3.	Click **+ Create** to access the log forwarding setting page, and set the following parameters:
-•	**Active server IP address:** Set this parameter to the IP address of the Log Insight server.
-•	**Active server port:** Set this parameter to 514.
-•	**Protocol type:** Set this parameter to TCP or UDP.
-•	**Enabled:** Set this parameter to Yes.
-•	Set other parameters as required.
+	-	**Active server IP address:** Set this parameter to the IP address of the Log Insight server.
+	-	**Active server port:** Set this parameter to 514.
+	-	**Protocol type:** Set this parameter to TCP or UDP.
+	-	**Enabled:** Set this parameter to Yes.
+	-	Set other parameters as required.
