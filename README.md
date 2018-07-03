@@ -2,11 +2,19 @@
 
 Log Insight is the VMware log management system. After the Huawei Log Insight content pack is installed,you can monitor and manage the sysLog logs reported by Huawei rack, blade, and eSight servers, collect log statistics, analyze logs,view event change trends, and pre-customize alarm sending.You can quickly locate server problems and analyze potential server problems.
 
-**Content Pack Name:** Huawei - eSight  v1.0.vlcp, Huawei - HMM  v1.0.vlcp, and Huawei - iBMC  v1.0.vlcp
+**Content Pack Name:** 
+- Huawei - eSight  v1.0.vlcp
+- Huawei - HMM  v1.0.vlcp
+- Huawei - iBMC  v1.0.vlcp
 
-**Supported Version:** Log Insight 4.0.0 and Log Insight 4.6.0
+**Supported Version:**
+-Log Insight 4.0.0 
+-Log Insight 4.6.0
 
-**Mapping Software:** eSight: eSight V300R008C00SPC201; MM910: (U54) 6.86D or later; iBMC: 2.94 (U25) or later
+**Mapping Software:** 
+- eSight: eSight V300R008C00SPC201
+- MM910: (U54) 6.86D or later
+- iBMC: 2.94 (U25) or later
 
 **Supported Device:**
 -   Huawei management server:   eSight
