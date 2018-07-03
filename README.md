@@ -8,8 +8,8 @@ Log Insight is the VMware log management system. After the Huawei Log Insight co
 - Huawei - iBMC  v1.0.vlcp
 
 **Supported Version:**
--Log Insight 4.0.0 
--Log Insight 4.6.0
+- Log Insight 4.0.0 
+- Log Insight 4.6.0
 
 **Mapping Software:** 
 - eSight: eSight V300R008C00SPC201
