@@ -72,7 +72,7 @@ The Overview, Security, System, and Operation pages are included. The view funct
 	-	Set other parameters as required.
 
 ## HMM Configuration
-1.	Log in to the BMC WebUI as an administrator and choose **System Management > Remote Syslog**.</b>
+1.	Log in to the HMM WebUI as an administrator and choose **System Management > Remote Syslog**.</b>
 
 2.	Set the following parameters in the **Operation Logs** area:
 	- **Syslog Status:** Set this parameter to ON.
